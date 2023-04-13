@@ -18,7 +18,7 @@ pipeline {
             stage("build python"){
                 when {
                     expression {
-                        params.APPLICATION = 'python'
+                        return params.APPLICATION = 'python'
                     }
                 }
 
@@ -32,7 +32,7 @@ pipeline {
             stage("build java"){
                 when {
                     expression {
-                        params.APPLICATION = 'java'
+                        return params.APPLICATION = 'java'
                     }
                 }
 
