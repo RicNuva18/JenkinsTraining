@@ -1,11 +1,6 @@
 pipeline {
 
     agent any
-    environment {
-        PASSWORD_DB = credentials('PASSWORD_DB')
-
-
-    }
 
     parameters {
 
