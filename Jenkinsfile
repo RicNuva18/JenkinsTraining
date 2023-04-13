@@ -19,7 +19,7 @@ pipeline {
         stage("build"){
 
             stages {
-                
+
             stage("build python"){
                 when {
                     expression {
@@ -44,7 +44,7 @@ pipeline {
                 steps {
                     echo 'Build python'
 
-                }SDFASF
+                }
 
             }
 
